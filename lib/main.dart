@@ -20,7 +20,7 @@ class Home  extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
           Padding(
-            padding: const EdgeInsets.fromLTRB(20.0,30.0,20.0,30.0),
+            padding: const EdgeInsets.fromLTRB(20.0,20.0,20.0,20.0),
             child: Container(
                 child: Icon(
                   Icons.account_circle,
@@ -46,7 +46,22 @@ class Home  extends StatelessWidget {
               ),
               ),
               SizedBox(
-                height: 30.0,
+                height: 10.0,
+
+              ),
+              Padding(
+                 padding: const EdgeInsets.fromLTRB(20.0, 8.0,20.0, 8.0),
+                 child: TextField(
+              obscureText: true,
+              decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'E-mail',
+             
+              ),
+              ),
+               ),
+               SizedBox(
+                height: 10.0,
 
               ),
                Padding(
